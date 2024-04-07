@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="./css/css.css" />
+	<link rel="stylesheet" href="./css/style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+	<style>
+		.contact-container {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.contact-left {
+			width: 50%;
+			padding: 20px;
+		}
+
+		.contact-right {
+			width: 50%;
+			padding: 20px;
+		}
+
+		form {
+			/* 根据您的设计自定义表单样式 */
+		}
+
+
+
+		.contact-page {
+			width: 100%;
+			max-width: 1400px;
+			padding: 25px;
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			flex-wrap: wrap;
+		}
+
+		h2 {
+			width: 100%;
+			margin-bottom: 80px;
+			text-transform: uppercase;
+			font-size: 40px;
+		}
+
+		.contact-info,
+		.contact-form {
+			flex: 1;
+		}
+
+		.item {
+			margin-bottom: 40px;
+			font-size: 16px;
+		}
+
+		.item .icon {
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			background-color: skyblue;
+			color: #fff;
+			border-radius: 50%;
+			margin-right: 5px;
+		}
+
+		.item p {
+			width: 400px;
+			overflow: hidden;
+			text-wrap: nowrap;
+			text-overflow: ellipsis;
+		}
+
+		.item p:hover {
+			overflow: visible;
+			text-wrap: nowrap;
+			text-overflow: initial;
+		}
+
+		.contact-form {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
+		.textb {
+			width: calc(50% - 10px);
+			height: 40px;
+			background-color: lightblue;
+			border: none;
+			color: #fff;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		textarea {
+			width: 100%;
+			min-height: 200px;
+			max-height: 400px;
+			resize: none;
+			background-color: lightblue;
+			border: none;
+			color: #fff;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+
+		.btn {
+			margin-left: auto;
+			width: 120px;
+			height: 40px;
+			text-transform: uppercase;
+			background-color: skyblue;
+			border: none;
+			border: 2px solid skyblue;
+			transition: 0.3s linear;
+			cursor: pointer;
+		}
+
+		.btn:hover {
+			background-color: transparent;
+			color: skyblue;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="width: 100%;">
+		<nav>
+			<ul class="clearfix nav">
+				<li><a href="index.html"> Home</a></li>
+				<li><a href="guihua.html">Projects & Outcomes</a></li>
+				<li><a href="tupian.html">About Us</a></li>
+
+				<li><a href="Contact Us.html" class="hover">Contact Us</a></li>
+			</ul>
+		</nav>
+
+
+		<div class="contact-page main">
+			<h2>Get in touch</h2>
+			<div class="contact-info">
+				<div class="item">
+					<div style="display: flex;">
+						<i class="icon fas fa-home"></i>
+						<div>
+							<p style="font-size: 14px;"> Northumberland Ave, London WC2N 5BY;</p>
+							<p style="font-size: 14px;">
+								PO YIP BUILDING, 23 HING YIP
+								STREET, KWUN TONG, KOWLOON, HONG KONG.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<i class="icon fas fa-phone"></i>+44 7529282244
+				</div>
+				<div class="item">
+					<i class="icon fas fa-envelope"></i> bli@nextgene.org.cn
+				</div>
+			</div>
+			<form action="" class="contact-form">
+
+				<input type="text" class="textb" placeholder="your name">
+				<input type="email" class="textb" placeholder="your email">
+				<textarea placeholder="your message"></textarea>
+				<input type='submit' value='send' class='btn'>
+			</form>
+		</div>
+
+
+		<footer>©2024</footer>
+	</div>
+
+</body>
+
+</html>
